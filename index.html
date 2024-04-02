@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg  nav-bar-media pt--1 ">
+        <div class="container-fluid bg-white">
+          <a class="navbar-brand" href="#"><img  class="background-img" src="ima-icon/svgexport-1.svg"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-white pt--1rem" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-4rem">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5501/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.capitalone.com/credit-cards/">Credit cards </a>
+              </li>
+              <li>
+              <a class="nav-link" href="https://www.capitalone.com/bank/">Checking & savings</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.capitalone.com/auto-financing/">Auto</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.capitalone.com/small-business/homepage/">Bussines</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.capitalone.com/commercial/">Commercial</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.capitalone.com/commercial/">Benifits & Tools</a>
+              </li>
+            </ul>
+          <div class="right-side ">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item navicon">
+                    <a class="nav-link" href="https://www.capitalone.com/help-center/credit-cards/make-payment-online/"><img class="icon-search" src="ima-icon/svgexport-3.svg" alt=""> </a>
+                  </li>
+                  <li class="nav-item navicon">
+                  <a class="nav-link" href="https://www.capitalone.com/help-center/"><img src="ima-icon/svgexport-4.svg" alt=""></a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="https://locations.capitalone.com/"><img src="ima-icon/svgexport-5.svg" alt=""></a>
+                  </li>
+                
+                
+      <!---- <div class="sign-in ">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">-->
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://verified.capitalone.com/auth/signin"><img src="ima-icon/svgexport-6.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                     <a  class="signin-a text-body-secondary" href="https://verified.capitalone.com/auth/signin" ><p>Singn in</p></a>
+
+                    </li>
+                   
+            </ul>
+          
+          </div>
+        </div>
+        </div>
+          
+          </nav>
+    
+    
+     <!---sign-in-form--> 
+     <div class="container-fluid bg-light d-flex justify-content-center align-items-center ">
+      <form  class="form-inline form-starts "style="width: 100%;"onsubmit="return emailvalidation()">
+      <div class="row ">
+      <div class="col-xs-12 col-lg-3">
+        <label><span>  username or password?</span></label>
+        <input type="email"  class="form-control"id="email">
+        <label for=""><input type="checkbox">Remember me</label>
+      </div>
+      <div class="col-xs-4  col-lg-3">
+        <label>password</label>
+        <input type="password"  class="form-control"id="password">
+        <label>Forgot username or password</label>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-lg-6">
+        <button onclick=" return emailvalidation() " type="submit" class=" sign-in-btn  "id="sign-in-btn">Sign in</button>
+      <div><label>set up online access</label></div>
+      </div>
+      </div>
+      </div>
+      </form>
+      </div>
+          
+        
+<!---script for emailvalidation-->
+      <div class=" container-fluid ">
+      <div class="col-xs-12 col-lg-12 imag-background mt-4">
+        <img  class=" img-fluid "  src="imag-pic/rtablet.avif" alt="">
+      </div>
+      
+      <div class="check-out col-xs-12 absolute-div ">
+        <h3>360 checking Account</h3>
+        <h1>Enjoy free-free checking</h1>
+        <h5>Bank confidently with no monthly fees and<br> no overdraft fees.</h5>
+     <a class="button-a" href="https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?internal_source=mabbanner&internal_medium=jan2023&internal_campaign=jeremybanner"> <button class="explore-btn">Explore 360 checking</button></a>
+      </div>
+      </div>
+     
+     <!--absolute value for main page-->
+     <div class="check-out1 col-xs-12 absolute-div1 ">
+      <h5>360 checking Account</h5>
+      <h4>Enjoy free-free checking</h4>
+      <h5> no monthly fees and overdraft fees.</h5>
+   <a class="button-a"href="https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?internal_source=mabbanner&internal_medium=jan2023&internal_campaign=jeremybanner"> <button class="explore-btn-mobile">Explore</button></a>
+    </div>
+    </div>
+
+      <!--absolute value for main page-->
+  
+    <div class="container mt-5 ">
+    <div class="row">
+    <div class="col-sm-4">
+    <div class="card ">
+    <img src= "ima-icon/Pre approval.svg" alt="" class="image-icon card-img-top  img-responsive " alt="..."style="width:200px" >
+    
+    <div class="card-body">
+    <h5 class="card-title">No impact, no worries</h5>
+        <p class="card-text">Check if you're pre-approved for card offers with no impact to your credit score.</p>
+        <a href="">see if i am pre-approved</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card">
+      <img src= "ima-icon/Piggy bank.svg" alt="" class=" image-icon card-img-top" alt="..."style="width:200px">
+    
+    <div class="card-body">
+      <h5 class="card-title">No impact, no worries</h5>
+      <p class="card-text">Check if you're pre-approved for card offers with no impact to your credit score.</p>
+      <a href="">see if i am pre-approved</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-4 ">
+    <div class="card" >
+      <img src= "ima-icon/Find a car you love image.svg" alt="" class=" card-img-top image-icon pl-5" alt="..."style="width:190px">
+    
+    <div class="card-body ">
+      <h5 class="card-title pl-5">No impact, no worries</h5>
+      <p class="card-text">Check if you're pre-approved for card offers with no impact to your credit score.</p>
+      <a href="">see if i am pre-approved</a>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+    
+    
+
+    
+<div class="container-fluid bg-light main-offer ">
+  <div class="row  ">
+    <div class="offer-main col-12  col-xs-12 col-sm-12 col-md-12 col-lg-6 side-text-img">
+      <ul class="side-text-img-ul">
+<li><h5>SPECIAL OFFER</h5></li>
+<li><p class="help-text">Lock in a 10-month 360 CD</p></li>
+<li><h6>Get guaranteed returns on your money with no market risk.</h6></li>
+<a class="button-a"href="https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?internal_source=mabbanner&internal_medium=jan2023&internal_campaign=jeremybanner"><button class="explore-btn-1">View offer</button></a>
+</ul>
+</div>
+    <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 side-text-img pt-0 imag-side-1">
+<img  class=" img-fluid side-text-img1"src="imag-pic/desktop-e4.h-cd10monprice-up.avif" alt="">
+    </div>
+  </div>
+</div>
+<div class="help">
+  <ul>
+    <li> <h5>How can i help?</h5></li> 
+    <div class="help-text-1"><p class="help-text">I want to
+      explore my options</p></div>
+    <div class="help-text-1"><p class="help-text">so that I can
+      work on my credit</p></div>
+    <div><p class="help-text">We’ll offer ideas to help you meet your goal. 1</div>
+
+  </ul>
+  <a href="https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/?internal_source=mabbanner&internal_medium=jan2023&internal_campaign=jeremybanner"">
+  <button class="explore-btn">See suggessions</button></a>
+
+
+    
+    
+      <div class="container-fluid mb-5 mt-5">
+<div class="card  card-split " style="max-width: 3900px;">
+  <div class="row g-0 row-card1">
+    <div class="col-md-7 col-sm-12">
+      <img src="imag-pic/shopping-lifestyle_desktop-high-750x464.avif" class="  img-card-1" alt="...">
+    </div>
+    <div class="col-md-5 mt-5 ml-5 col-sm-0 ">
+      <div class="card-body  card-body-rigt">
+        <h5 class="card-title ml-1">DEALS FOR SHOPPERS</h5>
+        <p class="card-text"><p class="help-text">Automatically get better deals<br> when you shop online</p>
+        <p class="card-text"><small class="text-body-secondary">Capital One Shopping is a free tool that instantly searches for<br> savings and applies them to your cart.</h5>
+        </small></p>
+        <button class="shopping-btn"><a class="anchor" href=""><h5> Capital One Shopping ></h5></a></button>
+      </div>
+    </div>
+    </div>
+  </div>
+      </div>
+  
+    
+
+      
+    
+      <div class=" container bank-detail mt-5">
+        <h3>We are morthan just a Bank</h3>
+      </div>
+      
+  <div class="container mt-5">
+        <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+              <img src="imag-pic/rmobile.webp" class="img-responsive card-img-top ">
+                <div class="card-body">
+              <p>Learn to manage your money <br>empower what you love</p>
+                <h6 >Get inspired with fresh tips on <br> smart ways to manage, spend and learn.</h6>
+                </div>
+              </div>
+        </div>
+          
+      
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="imag-pic/rmobile (1).avif" class="img-responsive card-img-top">
+          <div class="card-body">
+        <p>Learn to manage your money <br>empower what you love</p>
+          <h6 >Get inspired with fresh tips on <br> smart ways to manage, spend and learn.</h6>
+          </div>
+        </div>
+    </div>
+          
+          
+     
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="imag-pic/rmobile.avif" class="img-responsive card-img-top ">
+            <div class="card-body">
+          <p>Learn to manage your money <br>empower what you love</p>
+            <h6 >Get inspired with fresh tips on <br> smart ways to manage, spend and learn.</h6>
+            </div>
+        </div>
+      </div>
+          </div> 
+    
+      
+
+
+  
+    
+    
+  
+   
+    
+  
+  
+ 
+
+  
+    
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="">Credit card</a></li>
+            <li><a href="">Capital-one</a></li>
+            <li><a href="">Checking and savings</a></li>
+            <li><a href="">AUTO</a></li>
+            <li><a href="">Bussiness</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get to Know US</h4>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Corporate information</a></li>
+            <li><a href="">News room</a></li>
+            <li><a href="">technology</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Careers&job</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Patriot act certifications</a></li>
+            <li><a href="">Wolsfeberg Questionor</a></li>
+            <li><a href="">subphona policy</a></li>
+            <li><a href="">Additional information</a></li>
+            <li><a href="">Meet Eno</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ON THE GO</h4>
+          <ul>
+            <li><a href="">ATM $ location </a></li>
+            <li><a href="">Capital one travel</a></li>
+            <li><a href="">Mobile app</a></li>
+            <li><a href="">MEET Eno</a></li>
+            <li><a href="">DiGITAL payment</a></li>
+            <li><a href=""></li>
+          </ul>
+
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  
+  <div class=" footercontainer ">
+    <div class="social-icons ">
+      
+      <a href="https://www.facebook.com/jaseela Noushad"><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href=""><i class="fa-brands fa-google-plus"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+
+ 
+          
+            
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--password vissible hide-->
+<script>
+  function color(){
+    var text1= document.getElementById("inp").value
+    document.getElementById("h1-tag").innerHTML=text1
+}
+
+    function emailvalidation() {
+        
+        var password = document.getElementById("password").value;
+        var email = document.getElementById("email").value;
+
+        // Regular expression for email validation
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Check if username, password, and email are not empty
+        if ( password.trim() === '' || email.trim() === '') {
+            alert("All fields are required");
+            return false;
+        }
+
+        // Check if email is valid
+        if (!emailRegex.test(email)) {
+            alert("Invalid email address");
+            return false;
+        }
+
+        // Check if password meets minimum length requirement
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters long");
+            return false;
+        }
+
+        // If all validations pass, return true
+        return true;
+    }
+    </script>
+<script src="js/bootsrap://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+   <!---- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
+
+
+    
+</body>
+</html>
